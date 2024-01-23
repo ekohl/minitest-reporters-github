@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'minitest_reporters_github'
-  s.version     = '1.0.0'
+  s.version     = '1.0.1'
   s.authors     = ['Ewoud Kohl van Wijngaarden', 'Earlopain']
   s.homepage    = 'https://github.com/ekohl/minitest_reporters_github'
   s.summary     = 'The GitHub Actions reporter for minitest-reporters'
