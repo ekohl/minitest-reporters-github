@@ -39,10 +39,10 @@ class MinitestReportersGithub < Minitest::Reporters::BaseReporter
     message = "#{failure_type}: #{test.name}\n\n#{test.failure.message}"
     line_number = location(test.failure).split(":").last
 
-    "\n::error file=%<file>s,line=%<line>d::%<message>s" % {
+    "\n::error file=%<file>s,line=%<line>d::%<message>s\n" % {
       file: get_relative_path(test),
       line: line_number,
-      message: github_escape(message),
+      message: github_escape(message.rstrip),
     }
   end
 
