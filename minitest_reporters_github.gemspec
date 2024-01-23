@@ -2,7 +2,7 @@ Gem::Specification.new do |s|
   s.name        = 'minitest_reporters_github'
   s.version     = '1.0.0'
   s.authors     = ['Ewoud Kohl van Wijngaarden', 'Earlopain']
-  s.homepage    = 'https://github.com/ekohl/minitest-reporters'
+  s.homepage    = 'https://github.com/ekohl/minitest_reporters_github'
   s.summary     = 'The GitHub Actions reporter for minitest-reporters'
   s.description = 'A separate gem until https://github.com/minitest-reporters/minitest-reporters/pull/332 is merged'
   s.license     = 'MIT'
